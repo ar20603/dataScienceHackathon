@@ -1,0 +1,5 @@
+Approach and tool used:
+
+Initially we preprocessed the data using CSV reader and writer by taking all the columns with index > 6 as 'Info' for that item and searched for that item's category in that record and stored it as 'Category' in a new train file.
+
+We have used SGDClassifier which is a linear model in sklearn and trained our model with vectorization using words with more than 30 appearances and different values of alpha for fine tuning.
